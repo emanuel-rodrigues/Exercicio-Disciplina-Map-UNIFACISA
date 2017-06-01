@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Pai pai = new Pai();
-		pai.nome = "Jo„o";
+		pai.nome = "Jo√£o";
 		pai.idade = 50;
 		
 		Filho filho = new Filho();
@@ -16,6 +16,7 @@ public class Main {
 		filho.setIdade(20);
 		filho.setEmail( "carlos@teste.com");
 		
+		Main.mostrarDados(pai);
 		Main.mostrarDados(filho);
 		
 		
